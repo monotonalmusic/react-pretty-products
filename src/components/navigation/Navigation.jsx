@@ -13,7 +13,9 @@ const Navigation = () => {
 
   return (
     <nav className="navbar">
-      <img src="/simple-logo-pretty-removebg-preview.png"></img>
+      <NavLink to="/" className="logo">
+        <img src="/simple-logo-pretty-removebg-preview.png"></img>
+      </NavLink>
       <div className="burger-menu" onClick={toggleMenu}>
         {isOpen ? <IoClose /> : <GiHamburgerMenu />}
       </div>
