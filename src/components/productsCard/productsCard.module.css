@@ -1,5 +1,5 @@
 .productCardDiv {
-  width: 300px;
+  width: 275px;
   min-height: 425px;
   box-shadow: 3px 3px 3px 1px grey;
   border-radius: 10px;
@@ -27,6 +27,7 @@
 }
 
 .productImg {
+  object-fit: fill;
   border-radius: 5px;
   height: 200px;
   width: 250px;
