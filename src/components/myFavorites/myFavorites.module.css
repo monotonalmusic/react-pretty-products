@@ -1,0 +1,45 @@
+.list {
+  list-style-type: none;
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 5vh;
+  a {
+    color: inherit;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    &:before {
+      background-color: #0b7b9e;
+      content: "";
+      height: 2px;
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: width 0.3s ease-in-out;
+      width: 100%;
+    }
+    &:hover {
+      &:before {
+        width: 0;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+.myFavoritesDiv {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .list {
+    a {
+      width: 80%;
+    }
+  }
+}

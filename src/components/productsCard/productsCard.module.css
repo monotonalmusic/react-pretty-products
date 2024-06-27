@@ -1,0 +1,63 @@
+.productCardDiv {
+  width: 300px;
+  min-height: 425px;
+  box-shadow: 3px 3px 3px 1px grey;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 200px;
+    width: 250px;
+  }
+  li {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    list-style: none;
+  }
+  .productLinks {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+}
+
+.productImg {
+  border-radius: 5px;
+  height: 200px;
+  width: 250px;
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem; /* Adjust size as needed */
+  padding: 0;
+  margin-top: 10px;
+}
+
+.likeButton:hover {
+  color: red;
+}
+
+.textDiv {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.2rem;
+}

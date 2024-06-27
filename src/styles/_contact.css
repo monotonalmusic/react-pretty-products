@@ -1,0 +1,9 @@
+.contactDiv {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  padding: 30px;
+  margin-bottom: 5vh;
+}
